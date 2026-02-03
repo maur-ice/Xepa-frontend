@@ -16,7 +16,7 @@ import {
   BellOff,
   BellRing
 } from "lucide-react";
-import { notificationAPI } from "../services/api";
+import { notificationsAPI } from "../services/api";
 import toast from "react-hot-toast";
 
 export default function Notifications() {

@@ -3,7 +3,7 @@ import { getToken, removeToken } from './auth';
 
 // Create axios instance
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5000/api',
+  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
@@ -61,8 +61,8 @@ export const usersAPI = {
   getWorkers: () => api.get('/users/workers'),
 };
 
-// Work Entries API
-export const workEntriesAPI = {
+// Work Entries API - THIS IS THE MISSING EXPORT
+export const workEntryAPI = {  // Note: singular name 'workEntryAPI' not 'workEntriesAPI'
   getAll: (params = {}) => api.get('/work-entries', { params }),
   getById: (id) => api.get(`/work-entries/${id}`),
   create: (entryData) => api.post('/work-entries', entryData),
