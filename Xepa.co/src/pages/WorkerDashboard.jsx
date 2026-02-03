@@ -16,7 +16,7 @@ import {
   User
 } from "lucide-react";
 import { workEntryAPI, dashboardAPI } from "../services/api";
-import WorkEntryCard from "../components/Common/WorkEntryCard";
+import WorkEntryCard from "../common/WorkEntryCard";
 import toast from "react-hot-toast";
 
 export default function WorkerDashboard() {

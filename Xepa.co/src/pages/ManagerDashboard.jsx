@@ -15,7 +15,7 @@ import {
   Eye
 } from "lucide-react";
 import { approvalAPI, dashboardAPI } from "../services/api";
-import ApprovalCard from "../components/Common/ApprovalCard";
+import ApprovalCard from "../common/ApprovalCard";
 import toast from "react-hot-toast";
 
 export default function ManagerDashboard() {
