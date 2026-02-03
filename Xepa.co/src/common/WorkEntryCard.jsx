@@ -12,7 +12,7 @@ import {
   Calendar,
   User
 } from "lucide-react";
-import { workEntryAPI } from "../../services/api";
+import { workEntryAPI } from "../services/api";
 import toast from "react-hot-toast";
 
 export default function WorkEntryCard({ entry, onView, onEdit, onDelete }) {
