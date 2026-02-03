@@ -86,7 +86,7 @@ export default function LoginPage() {
                 transition={{ duration: 0.6 }}
                 className="text-center mb-8"
               >
-                <h1 className="text-2xl font-bold text-gray-900 mb-2">Workflow Approval System</h1>
+                <h1 className="text-2xl font-bold text-gray-900 mb-2">XEPA.Co</h1>
                 <h2 className="text-xl font-semibold text-gray-800 mb-2">Sign in</h2>
                 <p className="text-gray-600 text-sm">Streamline your approval workflow</p>
               </motion.div>
