@@ -93,7 +93,7 @@ export default function RegisterPage() {
                 <Briefcase className="w-8 h-8 text-white" />
               </div>
               <h1 className="text-3xl font-bold text-gray-900 mb-2">
-                Workflow Approval System
+                WElcome to xepa.co
               </h1>
               <h2 className="text-xl font-semibold text-gray-700 mb-2">
                 Create Your Account
@@ -232,25 +232,6 @@ export default function RegisterPage() {
                   </div>
                 </div>
 
-                {/* Position */}
-                <div className="space-y-2">
-                  <label className="flex items-center text-sm font-medium text-gray-700">
-                    <div className="w-2 h-2 bg-gray-400 rounded-full mr-2"></div>
-                    Position (Optional)
-                  </label>
-                  <div className="flex items-center border border-gray-300 rounded-lg bg-white px-4 py-3 focus-within:border-blue-500 focus-within:ring-2 focus-within:ring-blue-500/20 transition-all duration-200">
-                    <Briefcase className="w-5 h-5 text-gray-400 mr-3" />
-                    <input
-                      name="position"
-                      type="text"
-                      className="flex-1 outline-none text-gray-900 placeholder-gray-500 text-sm bg-transparent"
-                      placeholder="Enter position"
-                      value={formData.position}
-                      onChange={handleChange}
-                    />
-                  </div>
-                </div>
-
                 {/* Password */}
                 <div className="space-y-2">
                   <label className="flex items-center text-sm font-medium text-gray-700">
@@ -370,6 +351,7 @@ export default function RegisterPage() {
               <p className="text-gray-400 text-xs mt-2">
                 © {new Date().getFullYear()} Workflow Approval System
               </p>
+              <p>Developed by Streams Technologies. MAURICE GALEN</p>
             </motion.div>
           </div>
         </main>
